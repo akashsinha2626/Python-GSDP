@@ -7,7 +7,7 @@ data=np.array(x)
 data=np.delete(data,0,1)
 data=data/data.max(axis=0)
 t = np.linspace(0,1,10)
-# Model
+# ANN Model
 input = data[:,1:7]
 output = data[:,0:1]
 # plot
